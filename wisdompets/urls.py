@@ -25,8 +25,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name='home'),  #empty string matches home 
     path('adoptions/<int:pet_id>/',views.pet_detail,name='pet_detail'),
-    re_path(r'^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT}),
-    re_path(r'^static/(?P<path>.*)$',serve,{'document_root':settings.STATIC_ROOT}),
+    # re_path(r'^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT}),
+    # re_path(r'^static/(?P<path>.*)$',serve,{'document_root':settings.STATIC_ROOT}),
     # using a capture group as <>converts id to int it's called path converter    
 ]
 urlpatterns=urlpatterns+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
