@@ -23,7 +23,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home'),  #empty string matches home 
+    path('/',views.home,name='home'),  #empty string matches home 
     path('adoptions/<int:pet_id>/',views.pet_detail,name='pet_detail'),
     # re_path(r'^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT}),
     # re_path(r'^static/(?P<path>.*)$',serve,{'document_root':settings.STATIC_ROOT}),
