@@ -7,7 +7,7 @@
 <li>The site also has an admin interface in which the superuser can edit details on Pets which will change the database subsquently.</li>
 <li>It has added functionalities of HTML, CSS animations and Java Script to have a better UI/UX</li>
 </ul>
-<video width="320" height="240" controls src="/screen-capture.mp4" autoplay></video>
+
 
 </body>
 </html>
