@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-j1nsafv69mi(%dd899kcb%+&0+z3zuse64&)(o+=be9x#v^#s0
 DEBUG = False # changed for hosting
 DEBUG_PROPAGATE_EXCEPTIONS = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pet-adoption-site.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','pet-adoption-site.herokuapp.com']
 # ALLOWED_HOSTS=[]
 
 
